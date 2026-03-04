@@ -62,7 +62,7 @@ Works with `//`, `#`, and `/* */` comment styles.
 
 ## Custom Patterns
 
-Add custom patterns via `settings.json`:
+You can add your own custom patterns via `settings.json` by using Regex patterns:
 
 ```jsonc
 {
@@ -89,20 +89,3 @@ Add custom patterns via `settings.json`:
 - `start`: Regex matching the opening marker. Use `(?P<label>...)` to capture a label shown when folded.
 - `end`: Regex matching the closing marker.
 - `include_defaults`: When `true` (default), your patterns are added alongside the built-in ones. Set `false` to use only your custom patterns.
-
-## Development
-
-```sh
-# Build the server
-cargo build -p custom-code-folding-server
-
-# Run tests
-cargo test -p custom-code-folding-server
-
-# Build the WASM extension
-cargo build --target wasm32-wasip2 --release
-```
-
-## License
-
-MIT
