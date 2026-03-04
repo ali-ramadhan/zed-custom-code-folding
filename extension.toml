@@ -1,0 +1,19 @@
+id = "custom-code-folding"
+name = "Custom Code Folding"
+description = "Configurable code folding with custom comment markers"
+version = "0.1.0"
+schema_version = 1
+authors = ["Ali Ramadhan <ali.hh.ramadhan@gmail.com>"]
+repository = "https://github.com/ali-ramadhan/zed-custom-code-folding"
+
+[language_servers.custom-code-folding]
+name = "Custom Code Folding"
+languages = [
+  "Python", "Rust", "Go", "C", "Cpp", "Java", "JavaScript", "TypeScript",
+  "Ruby", "Bash", "Fish", "Lua", "PHP", "Kotlin", "Scala", "Swift",
+  "CSharp", "Elixir", "Haskell", "Julia", "Zig", "Nim", "OCaml", "Dart",
+  "GDScript", "Gleam", "Erlang", "Clojure", "Nix", "Terraform",
+  "HTML", "CSS", "Svelte", "Astro", "Vue", "Elm",
+  "Markdown", "LaTeX", "Typst", "TOML", "YAML", "JSON", "XML",
+  "Makefile", "Docker", "GLSL", "Proto", "Rego",
+]
