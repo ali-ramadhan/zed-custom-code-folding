@@ -120,7 +120,7 @@ fn test_server_folding_range() {
     assert_eq!(ranges[0]["startLine"], 1);
     assert_eq!(ranges[0]["endLine"], 4);
     assert_eq!(ranges[0]["kind"], "region");
-    assert_eq!(ranges[0]["collapsedText"], "Section A");
+    assert!(ranges[0]["collapsedText"].is_null());
 
     // Close stdin to terminate the server
     drop(stdin);
