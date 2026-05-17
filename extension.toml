@@ -9,7 +9,7 @@ repository = "https://github.com/ali-ramadhan/zed-custom-code-folding"
 [language_servers.custom-code-folding]
 name = "Custom Code Folding"
 languages = [
-  "Python", "Rust", "Go", "C", "Cpp", "Java", "JavaScript", "TypeScript",
+  "Python", "Rust", "Go", "C", "Cpp", "C++", "Java", "JavaScript", "TypeScript",
   "Ruby", "Bash", "Fish", "Lua", "PHP", "Kotlin", "Scala", "Swift",
   "CSharp", "Elixir", "Haskell", "Julia", "Zig", "Nim", "OCaml", "Dart",
   "GDScript", "Gleam", "Erlang", "Clojure", "Nix", "Terraform",
